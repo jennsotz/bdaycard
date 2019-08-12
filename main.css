@@ -1,0 +1,86 @@
+body {
+    background-color: pink;
+  }
+  
+  
+  #meme {
+    position: relative;
+    margin: 0 auto;
+  }
+  
+  #meme,img {
+    width: 600px;
+  }
+  
+  h2, h3, h4, h5 {
+    position: relative;
+    top:0px;
+    left: 85px;
+    text-align: center;
+    z-index: 50;
+    margin: 0 auto;
+    
+  }
+  
+  /*
+    You can change the position of the headings by adjusting the numbers in the "padding-top" attribute. Here they are listed as "px," which stands for pixels. 
+    */
+  h1 {
+    color: black;
+    font-family: cursive;
+    font-size: 40px;
+    position: relative;
+    top: 60px;
+    left: 170px;
+  }
+  
+  h2 {
+    color: #ff1ac6;
+    font-family: serif;
+    font-size: 17px;
+    position: relative;
+    top: 200px;
+    left: -90px;
+  }
+  
+  img {
+    border: 10px dashed purple;
+    margin: 20px auto;
+    position: absolute;
+  }
+  
+  h3 {
+    color:#ff1ac6 ;
+    font-family: serif;
+    font-size: 17px;
+    position: relative;
+    top: 200px;
+    left: -90px;
+   
+  }
+  h4 {
+    color: #ff1ac6;
+    font-family: serif;
+    font-size: 17px;
+    position: relative;
+    top: 200px;
+    left: -120px;
+  }
+  h5 {
+    color: #ff1ac6;
+    font-family: serif;
+    font-size: 15px;
+    position: relative;
+    top: 200px;
+    left: -90px;
+  }
+  
+  h6 {
+    position: absolute;
+    top: 600px;
+    left: 520px;
+    font-family: cursive;
+    font-size: 40px;
+  }
+  
+  
